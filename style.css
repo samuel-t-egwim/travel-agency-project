@@ -1,0 +1,72 @@
+.hero{
+    background-image: url(imagess/image01.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: black;
+}
+.container1{
+    position: absolute;
+    top: 40%;
+}
+.navbar{
+    background-color: black;
+    padding: 30px
+}
+.navdiv{
+    padding: 50px;
+}
+
+.navdiv a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 30px;
+}
+.text-center{
+    padding-top: 50px;
+}
+footer{
+    background-color: black;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+}
+ /* Hover effect on social media icon */
+ .socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+ }
+ .socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+ }
+ .footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+ }
+ .footerBottom p{
+    color: white;
+ }
